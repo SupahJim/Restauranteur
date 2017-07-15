@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--jQuery UI CSS -->
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<!-- jQuery & Ajax -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<!-- jQuery UI -->
+<script
+  src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+
+<!-- Initialisation -->
+<script src="js/init.js"></script>
+
+<!-- App functions -->
+<script src="js/restauranteur.js"></script>
+
+<!-- Stylesheet -->
+<link rel="stylesheet" type="text/css" href="css/main.css">
+
+<title>Food Hygiene Ratings</title>
+</head>
+<body>
+<div id="wrapper">
+	<div id="topContent">
+		<h1>Restauranteur</h1>
+	</div>
+	<br>
+	<div id="introText">
+		<p>
+		Restraunteur allows you to quickly and easily see hygeine and user ratings for restaurants in Canterbury!
+		</p>
+	</div>
+	<div id="theContent">
+		<div id="pageButtons">
+		</div>
+		<br>
+		<br>
+		<table id="restaurants_table">
+		  <tr>
+		    <th>Business</th>
+		    <th>Address</th>
+		    <th>Hygiene Rating</th>
+		    <th>Date</th>
+		    <th>Customer Rating</th>
+		  </tr>
+		</table>
+
+		<br>
+		<div id="searchDiv">
+			Search<br><br>
+			Business Name: <input type="text" id="searchInput"/> 
+			<input type="button" id="searchButton" value="Search" />
+		</div>
+
+		<div id="popUp" title="Customer Rating">
+			<p id="popUpDetails">
+			</p>
+			<table id="ratings_table">
+			  <tr>
+			    <th>Business</th>
+			    <th>Address</th>
+			    <th>Customer Rating</th>
+			  </tr>
+			</table>
+		</div>
+	</div>
+</div>
+</body>
+</html>

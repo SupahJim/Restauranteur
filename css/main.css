@@ -1,0 +1,107 @@
+body{
+font-family: Arial,Helvetica, sans-serif; 
+background-color:#DFE2DB;
+}
+h1{
+position: relative;
+bottom: 10px;
+right: 10px;
+}
+
+/**
+* Center the page
+*/
+#wrapper{
+text-align: center
+}
+
+/*
+* The header
+*/
+#topContent{
+display: inline-block;
+border-radius: 25px;
+padding: 20px;
+width: 200px;
+height: 40px;
+background: #C0C0BE; 
+font-weight: bold; 
+}
+
+#introText{
+display: inline-block;
+}
+
+/**
+* The main container for the content on the page
+*/
+#theContent{
+display: inline-block;
+}
+
+/**
+* Set pop up as hidden by default
+*/
+#popUp{
+display: none;
+}
+
+/**
+* Styling for table that displays messages
+*/
+#restaurants_table { 
+color: #333; 
+font-family: Arial,Helvetica, sans-serif; 
+font-size: 11pt;
+width: 1200px; 
+border-collapse: 
+collapse; border-spacing: 0; 
+    margin-left: 1%;
+margin-right: 1%;
+}
+#ratings_table { 
+color: #333; 
+font-family: Arial,Helvetica, sans-serif; 
+width: 700; 
+border-collapse: 
+collapse; border-spacing: 0; 
+}
+
+td, th { 
+border: 1px solid #CCC; height: auto; 
+} 
+
+th {
+background: #C0C0BE; 
+font-weight: bold; 
+}
+
+td {
+background: #FAFAFA; 
+text-align: center; 
+}
+/**
+*Page button styling
+*/
+.pageButton{
+margin: 1px;
+}
+
+/**
+* Div that contains the search fields
+*/
+#searchDiv{
+display: inline-block;
+border-radius: 25px;
+padding: 20px;
+width: 370px;
+height: 50px;
+background: #C0C0BE; 
+font-weight: bold; 
+}
+/**
+*Div that contains the page buttons
+*/
+#pageButtons{
+display:inline-block;
+}
